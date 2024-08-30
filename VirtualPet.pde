@@ -1,6 +1,9 @@
 void setup()
 {
   size(340, 340);
+}
+void draw()
+{
   System.out.println("x: " + mouseX);
   System.out.println("y: " + mouseY);
   fill(242, 25, 17);
