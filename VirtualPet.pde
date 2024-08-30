@@ -4,8 +4,6 @@ void setup()
 }
 void draw()
 {
-  System.out.println("x: " + mouseX);
-  System.out.println("y: " + mouseY);
   fill(242, 25, 17);
   noStroke();
   arc(150, 150, 230, 200, PI, 2*PI);
